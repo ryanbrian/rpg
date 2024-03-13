@@ -1,3 +1,16 @@
+IN ORDER TO MAKE COMMITS
+to create a new branch use 
+git checkout -b branch_name
+first make sure you are in the correct branch
+  git checkout branch_name
+then you must stage the changed by adding them the easiest way is to make sure you are in the correct folder, then add all
+  git add --all
+then you must commit the changes with a message
+  git commit -m "message"
+then you mush push
+  git push
+then you have committed!
+
 GameIdea 
 
 Roguelike jrpg
