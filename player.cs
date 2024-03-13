@@ -7,8 +7,8 @@ public partial class player : Sprite2D
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
-//		character player;
-//		print(player.atk);
+		character a= new character();
+		GD.Print(a.atk);
 		GD.Print("hi");
 	}
 
