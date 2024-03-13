@@ -32,3 +32,6 @@ Roguelike jrpg
   monster tamer class
   specific recruitiing methods 
   
+
+
+.
