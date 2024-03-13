@@ -1,6 +1,9 @@
 IN ORDER TO MAKE COMMITS
-to create a new branch use 
-git checkout -b branch_name
+	to create a new branch use 
+	git checkout -b branch_name
+	git push -u origin branch_name
+check branches with
+	git branch -vv
 first make sure you are in the correct branch
   git checkout branch_name
 then you must stage the changed by adding them the easiest way is to make sure you are in the correct folder, then add all
