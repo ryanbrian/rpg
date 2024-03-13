@@ -14,6 +14,14 @@ public partial class player : Sprite2D
 		GD.Print("hi");
 	}
 
+	public partial class playerBody:Area2D{
+		/*private void onBodyEnter(PhysicsBody2D body){
+			GD.Print("it had happened");
+		}*/
+
+
+	}
+
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
@@ -29,5 +37,6 @@ public partial class player : Sprite2D
 		if(Input.IsActionPressed("ui_right")){
 			Position+=new Vector2(1,0);
 		}
+
 	}
 }
