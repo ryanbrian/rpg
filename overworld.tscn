@@ -1,5 +1,8 @@
-[gd_scene format=3 uid="uid://bh26go5owm0i1"]
+[gd_scene load_steps=2 format=3 uid="uid://bh26go5owm0i1"]
+
+[ext_resource type="Script" path="res://player.cs" id="1_1xvr8"]
 
 [node name="overworld" type="Node2D"]
 
 [node name="player" type="Sprite2D" parent="."]
+script = ExtResource("1_1xvr8")
