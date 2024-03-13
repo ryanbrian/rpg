@@ -8,6 +8,7 @@ public partial class player : Sprite2D
 	public override void _Ready()
 	{
 		character a= new character();
+		a.job = character.job_type.Spanker;
 		a.init();
 		GD.Print(a.atk);
 		GD.Print("hi");

@@ -7,6 +7,7 @@ public partial class npc : Node
 	public override void _Ready()
 	{
 		character thisdude = new character();
+		thisdude.job=character.job_type.Zoinks;
 		thisdude.init();
 		GD.Print(thisdude.atk+"this is the attack of enemy");
 	}
